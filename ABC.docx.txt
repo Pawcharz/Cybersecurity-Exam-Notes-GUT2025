@@ -1,0 +1,948 @@
+﻿Instrukcja:
+
+
+Zadanie:
+	tutaj wklejamy treść zadania na ctrl f
+	Screen:
+	tutaj screen całego pytanka
+	Odpowiedź:
+	tutaj odpowiedź, jeżeli na screenie jej nie ma
+ewentualnie komentarze, sugestie i wątpliwości
+	
+
+Note: 
+1. “Zadanie” must żeby było wypełnione (żeby idea ctrl f działała).  
+2. Screena nie musi być. 
+3. Odp albo w sekcji “Odpowiedź” albo na screenie w sekcji “Screen”.
+4. Każdy robi jak mu wygodniej.  
+5. Powodzonka misie <3
+________________
+
+
+
+
+Zadanie:
+	During the attack against the PlayStation Network in 2011, the users of PlayStation 3 consoles were prevented from accessing the service. Which attribute of the service was violated?
+	Screen:
+	  
+
+	Odpowiedź:
+	imo confiendtiality
+//na wykladzie mowil ze C i A ;-;
+ja bym dała availability// zdecydowanie availability
+//w tym konkretnym pytanie tylko A :D
+	Zadanie:
+	3 levels (low, moderate and high) of the potential impact of a information security breach on organisations or individuals are specified in:
+	Screen:
+	
+
+	Odpowiedź:
+	  
+
+	Zadanie:
+	Alice, Bob and Eve belong to the naming convention of:
+	Screen:
+	  
+
+	Odpowiedź:
+	cryptography
+	Zadanie:
+	Which of the publications is an international standard?
+	Screen:
+	  
+
+	Odpowiedź:
+	Discretionary Access Control (DAC),// ISO?
+	Zadanie:
+	A restricted cryptographic algorithm is
+	Screen:
+	  
+
+	Odpowiedź:
+	an algorithm which security is based on hiding its form and code
+	Zadanie:
+	Which of the statements below is FALSE:
+
+
+Select one:
+a. The crucial determinant of the effectiveness of firewalls is their appropriate configuration.
+b. Host-based firewalls are deployed in communication networks, between distinct network zones.
+c. Firewalls are often embedded in routers.
+d. The filtering performed by firewalls is based on a defined set of rules.
+
+
+	Screen:
+	z wykladu:
+Network-based firewalls, usually in the form of dedicated hardware components, are deployed in communication networks, between distinct network Zones. 
+
+
+wiec imo false jest : Host-based firewalls are deployed in communication networks, between distinct network zones
+	Odpowiedź:
+	nie A, nie C, nie D, więc B
+
+
+
+
+
+
+IMO: Host-based firewalls are deployed in communication networks, between distinct network zones.
+
+
+
+
+	Zadanie:
+	The practice of the enciphering and deciphering of messages in secret code to render them unintelligible to all but the intended receiver refers to:
+Select one:
+a. cryptology
+b. cryptanalysis
+c. cryptography
+
+
+	Screen:
+	
+
+	Odpowiedź:
+	Imo cryptography /Maks +1 /++
+	Zadanie:
+	alice,bob,eve
+	Screen:
+	  
+
+	Odpowiedź:
+	cryptography
+	Zadanie:
+	which of the statements is true?
+	Screen:
+	  
+
+	Odpowiedź:
+	residual risk can contain unidentified risk
+	Zadanie:
+	separating a system area such 
+	Screen:
+	  
+
+	Odpowiedź:
+	firewall
+	Zadanie:
+	Authorisation refers to:
+Select one:
+a. claiming the identity by an entity
+b. permitting an entity to access the resources that it requested for
+c. providing evidence to prove an identity claim
+
+
+	Screen:
+	  
+
+	Odpowiedź:
+	C
+	Zadanie:
+	An intrusion detection system does NOT contain
+Select one:
+a. access monitors
+b. a knowledge base
+c. data gathering devices
+d. configuration component
+
+
+	Screen:
+	  
+
+	Odpowiedź:
+	access monitors
+	Zadanie:
+	A list of authorised or unauthorised individual entities for each asset is maintained in:
+Select one:
+a. role-based access control
+b. discretionary access control
+c. mandatory access control
+
+
+	Screen:
+	
+
+	Odpowiedź:
+	  
+
+	Zadanie:
+	The acronym DAC refers to:
+	Screen:
+	  
+
+	Odpowiedź:
+	access control
+	Zadanie:
+	Is a secure communication channel required for exchanging keys between Alice and Bob in symmetric cryptography?
+Select one:
+a. yes
+b. no
+
+
+	Screen:
+	
+
+	Odpowiedź:
+	
+
+yes
+(no in asymmetric)
+	Zadanie:
+	Which of the statements below characterise the general situation in organisations and enterprises?
+Select one:
+a. Managers (management personnel) are insufficiently involved in the information security management.
+b. Managers (management personnel) have very realistic expectations of the cost related to protecting the ICT infrastructures and assets.
+c. The problem of protection of enterprises’ ICT infrastructures is treated with due attention.
+
+
+	Screen:
+	  
+
+	Odpowiedź:
+	na logike chyba A (w górnej wersji)
+	Zadanie:
+	Which of the statements is TRUE?
+Select one:
+a. Residual risk is the risk increased during risk evaluation.
+b. Residual risk is the risk reduced during risk identification.
+c. Residual risk can contain unidentified risk.
+
+
+	Screen:
+	  
+
+	Odpowiedź:
+	Residual risk can contain unidentified risk.
+	Zadanie:
+	
+
+	Screen:
+	A list of authorised or unauthorised individual entities for each asset is maintained in:
+	Odpowiedź:
+	  
+
+	Zadanie:
+	
+
+	Screen:
+	  
+
+	Odpowiedź:
+	Guidelines for selecting and defining security controls for federal agencies’ information systems are provided in:
+	Zadanie:
+	Authentication refers to:
+Select one:
+a. providing evidence to prove an identity claim
+b. claiming the identity by an entity
+c. permitting an entity to access the resources that it requested for
+
+
+	Screen:
+	
+
+	Odpowiedź:
+	providing evidence
+	Zadanie:
+	Which of the statements is TRUE?
+Select one:
+a. Residual risk can contain unidentified risk.
+b. Residual risk is the risk reduced during risk identification.
+c. Residual risk is the risk increased during risk evaluation.
+
+
+	Screen:
+	
+
+	Odpowiedź:
+	
+
+	Zadanie:
+	Security control baselines are defined in
+Select one:
+a. CRAMM
+b. RBAC
+c. NIST SP 800-53
+d. MAGERIT
+
+
+	Screen:
+	
+
+	Odpowiedź:
+	nist
+	Zadanie:
+	Information security (choose one INCORRECT answer):
+	Screen:
+	  
+
+	Odpowiedź:
+	focuses uniquely on IT assets
+	Zadanie:
+	To start communication encrypted with asymmetric cryptography, Alice needs to sent to Bob
+Select one:
+a. a private key
+b. a secret key
+c. a public key
+
+
+	Screen:
+	
+
+	Odpowiedź:
+	chyba public
+	Zadanie:
+	Which of the statements below characterise the general situation in organisations and enterprises?
+	Screen:
+	  
+
+	Odpowiedź:
+	Due to attention… jest w slajdach
+	Zadanie:
+	public key
+	Screen:
+	
+
+	Odpowiedź:
+	asymmetric
+	Zadanie:
+	During the Zeus attack in 2010 and 2011 all data were erased on infected hard disks. Which attribute of the data was violated?
+Select one:
+a. availability
+b. confidentiality
+
+
+	Screen:
+	
+
+	Odpowiedź:
+	imo availabiltiy
+/imo too
+	Zadanie:
+	Assuring that systems operate with no delays and their services are not denied to authorised users refers to the systems’
+Select one:
+a. confidentiality
+b. availability
+c. integrity
+
+
+	Screen:
+	
+
+	Odpowiedź:
+	na logikę avauiklability
+	Zadanie:
+	Which of the statements is TRUE?
+	Screen:
+	  
+
+	Odpowiedź:
+	
+
+	Zadanie:
+	3 levels (low, moderate and high) of the potential impact of a information security breach on organisations or individuals are specified in:
+	Screen:
+	
+
+	Odpowiedź:
+	a. FIPS 199
+	Zadanie:
+	The acronym DAC refers to:
+access control
+	Screen:
+	
+
+	Odpowiedź:
+	  
+
+	Zadanie:
+	A restricted cryptographic algorithm is
+	Screen:
+	
+
+	Odpowiedź:
+	  
+
+	Zadanie:
+	Security control baselines are defined in
+	Screen:
+	
+
+	Odpowiedź:
+	  
+
+	Zadanie:
+	Alice, Bob and Eve belong to the naming convention of:
+	Screen:
+	
+
+	Odpowiedź:
+	
+
+	Zadanie:
+	Restricted
+	Screen:
+	  
+
+	Odpowiedź:
+	
+
+	Zadanie:
+	Access control lists are utilised in
+	Screen:
+	  
+
+	Odpowiedź:
+	imo discretionary access control
+	Zadanie:
+	Which of the statements below is FALSE:
+Select one:
+a. Host-based firewalls are deployed in communication networks, between distinct network zones.
+b. Firewalls can be broadly categorised between network-based and host-based.
+c. Firewalls are often embedded in network equipment.
+d. The filtering performed by firewalls is based on a defined set of rules.
+
+
+	Screen:
+	  
+
+	Odpowiedź:
+	Host-based firewalls are deployed in communication networks, between distinct network zones.
+	Zadanie:
+	  
+
+	Screen:
+	Information security (choose one INCORRECT answer):
+	Odpowiedź:
+	
+
+	Zadanie:
+	Which of the statements below is FALSE:
+Select one:
+a. Intrusion detection systems aim at detection benevolent human activities that can be harmful to the protected system.
+b. Intrusion detection systems aim at detection of system penetration attempts.
+c. Network-based intrusion detection systems focus on monitoring the events in the local environment of individual computer devices.
+
+
+	Screen:
+	a czy c? 
+
+
+c dottyczy host-based systems 
+czyli C 
+	Odpowiedź:
+	c
+	Zadanie:
+	Key length refers to
+	Screen:
+	  
+
+	Odpowiedź:
+	d
+	Zadanie:
+	Separating a system area, such as a network, a subnetwork, or an individual host from other areas, including the Internet, by filtering incoming and outgoing network traffic is the fundamental objective of:
+	Screen:
+	  
+
+	Odpowiedź:
+	firewall
+	Zadanie:
+	Creating a decryption key based on the encryption key is possible in the:
+	Screen:
+	  
+
+	Odpowiedź:
+	a
+	Zadanie:
+	Modifying a cyberasset without authorisation violates the cyberasset’s
+	Screen:
+	  
+
+	Odpowiedź:
+	imo integrity
+	Zadanie:
+	
+
+	Screen:
+	
+
+	Odpowiedź:
+	
+
+	Zadanie:
+	Hindering the access of authorised users to a cyberasset violates the cyberasset’
+	Screen:
+	  
+
+	Odpowiedź:
+	availability
+	Zadanie:
+	
+
+	Screen:
+	  
+
+	Odpowiedź:
+	
+
+	Zadanie:
+	
+
+	Screen:
+	  
+
+	Odpowiedź:
+	
+
+	Zadanie:
+	
+
+	Screen:
+	  
+
+	Odpowiedź:
+	
+
+	Zadanie:
+	Guidelines for selecting and defining security controls for federal agencies’ information systems are provided in:
+	Screen:
+	  
+
+	Odpowiedź:
+	
+
+	Zadanie:
+	
+
+	Screen:
+	  
+
+	Odpowiedź:
+	
+
+	Zadanie:
+	
+
+	Screen:
+	  
+
+	Odpowiedź:
+	
+
+	Zadanie:
+	
+
+	Screen:
+	
+
+	Odpowiedź:
+	
+
+	Zadanie:
+	
+
+	Screen:
+	
+
+	Odpowiedź:
+	
+
+	Zadanie:
+	
+
+	Screen:
+	
+
+	Odpowiedź:
+	
+
+	Zadanie:
+	
+
+	Screen:
+	
+
+	Odpowiedź:
+	
+
+	Zadanie:
+	
+
+	Screen:
+	  
+
+	Odpowiedź:
+	
+
+	Zadanie:
+	
+
+	Screen:
+	
+
+	Odpowiedź:
+	
+
+	Zadanie:
+	
+
+	Screen:
+	
+
+	Odpowiedź:
+	
+
+	Zadanie:
+	To start communication encrypted with asymmetric cryptography, Alice needs to sent to Bob a key
+	Screen:
+	  
+
+	Odpowiedź:
+	
+
+	Zadanie:
+	
+
+	Screen:
+	  
+
+	Odpowiedź:
+	
+
+	Zadanie:
+	
+
+	Screen:
+	
+
+	Odpowiedź:
+	
+
+	Zadanie:
+	
+
+	Screen:
+	  
+
+	Odpowiedź:
+	
+
+	Zadanie:
+	
+
+	Screen:
+	  
+
+	Odpowiedź:
+	
+
+	Zadanie:
+	
+
+	Screen:
+	  
+
+	Odpowiedź:
+	
+
+	Zadanie:
+	
+
+	Screen:
+	  
+
+	Odpowiedź:
+	
+
+	Zadanie:
+	
+
+	Screen:
+	
+
+	Odpowiedź:
+	
+
+	Zadanie:
+	
+
+	Screen:
+	
+
+	Odpowiedź:
+	
+
+	Zadanie:
+	
+
+	Screen:
+	
+
+	Odpowiedź:
+	
+
+	Zadanie:
+	Symmetric cryptography is faster than asymmetric cryptography?
+	Screen:
+	
+
+	Odpowiedź:
+	yes
+	Zadanie:
+	Guidelines for selecting and defining security controls for federal agencies’ information systems are provided in:
+	Screen:
+	
+
+	Odpowiedź:
+	NIST SP 800-53
+	Zadanie:
+	
+
+	Screen:
+	
+
+	Odpowiedź:
+	
+
+	Zadanie:
+	
+
+	Screen:
+	
+
+	Odpowiedź:
+	
+
+	Zadanie:
+	
+
+	Screen:
+	
+
+	Odpowiedź:
+	
+
+	Zadanie:
+	
+
+	Screen:
+	
+
+	Odpowiedź:
+	
+
+	Zadanie:
+	
+
+	Screen:
+	
+
+	Odpowiedź:
+	
+
+	Question 1
+Complete
+Mark 5.00 out of 5.00
+Flag question
+Question text
+Separating a system area, such as a network, a subnetwork, or an individual host from other areas, including the Internet, by filtering incoming and outgoing network traffic is the fundamental objective of:
+Select one:
+a. access control
+b. a firewall
+c. authorisation
+d. an access monitor
+Question 2
+Complete
+Mark 5.00 out of 5.00
+Flag question
+Question text
+Security control baselines are defined in
+Select one:
+a. HTRA
+b. NIST SP 800-53
+c. RBAC
+d. MAGERIT
+Question 3
+Complete
+Mark 5.00 out of 5.00
+Flag question
+Question text
+During the Zeus attack in 2010 and 2011 all data were erased on infected hard disks. Which attribute of the data was violated?
+Select one:
+a. availability
+b. confidentiality
+Question 4
+Complete
+Mark 5.00 out of 5.00
+Flag question
+Question text
+Information security (choose one INCORRECT answer):
+Select one:
+a. may concern the protection of technical reports
+b. may concern the protection of employees records
+c. focuses uniquely on IT assets
+Question 5
+Complete
+Mark 5.00 out of 5.00
+Flag question
+Question text
+A restricted cryptographic algorithm is
+Select one:
+a. an algorithm which security is based on showing its key
+b. an algorithm with specified maximum keyspace value
+c. an algorithm which security is based on hiding its secret key
+d. an algorithm which security is based on hiding its form and code
+Question 6
+Complete
+Mark 5.00 out of 5.00
+Flag question
+Question text
+Key length refers to:
+Select one:
+a. the number of bits in the binary representation of a cryptographic key
+b. the execution environment of a cryptographic key
+c. the boundaries of the performance of cryptographic key
+d. the range of possible values of a cryptographic key
+Question 7
+Complete
+Mark 5.00 out of 5.00
+Flag question
+Question text
+3 levels (low, moderate and high) of the potential impact of a information security breach on organisations or individuals are specified in:
+Select one:
+a. FIPS 199
+b. HTRA
+c. ISO/IEC 27002
+d. ISO/IEC 27001
+Question 8
+Complete
+Mark 5.00 out of 5.00
+Flag question
+Question text
+The acronym DAC refers to:
+Select one:
+a. risk assessment
+b. intrusion detection
+c. risk analysis
+d. access control
+Question 9
+Complete
+Mark 5.00 out of 5.00
+Flag question
+Question text
+Authorisation refers to:
+Select one:
+a. providing evidence to prove an identity claim
+b. permitting an entity to access the resources that it requested for
+c. claiming the identity by an entity
+Question 10
+Complete
+Mark -2.50 out of 5.00
+Flag question
+Question text
+Which of the statements below characterise the general situation in organisations and enterprises?
+Select one:
+a. Due attention is missed to the problem of protection of enterprises’ ICT infrastructures.
+b. The problem of protection of enterprises’ ICT infrastructures is treated with due attention.
+c. Managers (management personnel) have very realistic expectations of the cost related to protecting the ICT infrastructures and assets.
+Question 11
+Complete
+Mark 5.00 out of 5.00
+Flag question
+Question text
+Alice, Bob and Eve belong to the naming convention of:
+Select one:
+a. asset identification
+b. cryptography
+c. asset evaluation
+d. threat identification
+Question 12
+Complete
+Mark 5.00 out of 5.00
+Flag question
+Question text
+In general, which of the systems below have higher ratio of false alerts?
+Select one:
+a. anomaly-based intrusion detection systems
+b. signature-based intrusion detection systems
+Question 13
+Complete
+Mark 5.00 out of 5.00
+Flag question
+Question text
+A list of authorised or unauthorised individual entities for each asset is maintained in:
+Select one:
+a. mandatory access control
+b. discretionary access control
+c. role-based access control
+Question 14
+Complete
+Mark 5.00 out of 5.00
+Flag question
+Question text
+Which of the statements below is FALSE:
+Select one:
+a. The filtering performed by firewalls is based on a defined set of rules.
+b. The crucial determinant of the effectiveness of firewalls is their appropriate configuration.
+c. Host-based firewalls are deployed in communication networks, between distinct network zones.
+d. Firewalls are often embedded in routers.
+Question 15
+Complete
+Mark 5.00 out of 5.00
+Flag question
+Question text
+Which of the statements is TRUE?
+Select one:
+a. Residual risk is the risk increased during risk analysis.
+b. Residual risk is the risk removed during risk evaluation.
+c. Residual risk can contain unidentified risk.
+Question 16
+Complete
+Mark 5.00 out of 5.00
+Flag question
+Question text
+Which of the publications is an international standard?
+Select one:
+a. ISO/IEC 27001
+b. CORAS
+c. NIST SP 800-53
+d. MAGERIT
+Question 17
+Complete
+Mark 5.00 out of 5.00
+Flag question
+Question text
+Being available only to authorised entities refers to the information’s
+Select one:
+a. availability
+b. confidentiality
+c. integrity
+Question 18
+Complete
+Mark 5.00 out of 5.00
+Flag question
+Question text
+Symmetric cryptography is faster than asymmetric cryptography?
+Select one:
+a. no
+b. yes
+Question 19
+Complete
+Mark 5.00 out of 5.00
+Flag question
+Question text
+Guidelines for selecting and defining security controls for federal agencies’ information systems are provided in:
+Select one:
+a. ISO/IEC 27002
+b. ISO/IEC 27001
+c. HTRA
+d. NIST SP 800-53
+Question 20
+Complete
+Mark 5.00 out of 5.00
+Flag question
+Question text
+Which of the statements below is FALSE:
+Select one:
+a. Signatures are distinguishable fragments of code or specifications that enable recognising an attack.
+b. Network-based intrusion detection systems focus on monitoring the events in the local environment of individual computer devices.
+c. Network-based intrusion detection systems protect both the network and the hosts, but they focus on events related to communication.

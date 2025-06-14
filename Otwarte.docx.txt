@@ -1,0 +1,92 @@
+﻿Instrukcja:
+
+
+Zadanie:
+	tutaj wklejamy treść zadania na ctrl f
+	Odpowiedź:
+	tutaj odpowiedź, sugestie i wątpliwości
+	
+
+Note: 
+1. “Zadanie” must żeby było wypełnione (żeby idea ctrl f działała). 
+2. Screena nie musi być. 
+3. Odp albo w sekcji “Odpowiedź” albo na screenie w sekcji “Screen”.
+4. Każdy robi jak mu wygodniej.  
+5. Powodzonka misie <3
+
+
+
+
+________________
+
+
+
+
+
+
+Zadanie:
+	Provide 3 examples of availability violation.
+	Odpowiedź:
+	ransomware, DoS, DDoS
+	Zadanie:
+	Provide an example of a security control to reduce the risk of copying accounting data by unauthorised users.
+	Odpowiedź:
+	nie jestem pewien ale chyba moze byc Encryption
+chyba bardziej:
+A.12.3.1 - Information backup
+
+
+	Zadanie:
+	3 levels
+	Odpowiedź:
+	
+
+	Zadanie:
+	separating
+	Odpowiedź:
+	
+
+	Zadanie:
+	What is the key length of the key which binary represenation has 406 bits?
+	Odpowiedź:
+	2^406
+a nie po prostu 406? 2^406 to keyspace
+Racja, zjebałemXD
+
+
+	Zadanie:
+	Provide 3 examples of integrity violation.
+	Odpowiedź:
+	
+
+	Zadanie:
+	What is the key length of the key which binary represenation has 357 bits?
+	Odpowiedź:
+	357
+	Zadanie:
+	Provide 3 examples of organisational security controls.
+	Odpowiedź:
+	ISO  A.6  Information security organization
+ISO  A.8 Asset management
+ISO A.18 Compliance
+Cos w tym stylu chyba nie ?
+A.12.1.2 - Change management
+A.11.1.5 - Working in secure areas
+A.8.2.3 - Handling of assets
+A.6.1.1 - Information security 
+roles and responsibilities
+//lepiej nie napisac dokladne nazwy tych controls
+	Zadanie:
+	Provide examples of 3 information assets that are not IT assets.
+	Odpowiedź:
+	 paper documents, patents, guidelines, intellectual property, policies, documentations, 
+	Zadanie:
+	What is the key length of the key which binary represenation has 434 bits?
+	Odpowiedź:
+	434
+	Zadanie:
+	Provide 3 examples of critical infrastructures.
+
+
+//Critical infrastructure — a system or asset, which is crucial in the provision of vital societal functions, health, safety, security, economic or social well-being of individuals. Its disruption or destruction would have a significant impact on security, economic security, public health or safety, or any combination of those matters. 
+	Odpowiedź:
