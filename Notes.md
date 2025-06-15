@@ -23,9 +23,9 @@ The CIA Triad is the fundamental model of information security:
     - Checksums
     - Digital signatures
   - Violations:
-    - Data tampering: Unauthorized modification of data
-    - Unauthorized modifications
-    - Data corruption: Accidental or malicious alteration of data
+    - Data tampering: Deliberate alteration of information without authorization ??
+    - Ransomware attacks ??
+    - Data corruption: Unintended or malicious data damage ??
 
 - **Availability**
   - Definition: Ensuring authorized users have access to information when needed
@@ -210,6 +210,7 @@ A firewall is a network security device that monitors and filters incoming and o
 ### 4.2 Intrusion Detection Systems (IDS)
 An Intrusion Detection System (IDS) is a security tool that monitors network or system activities for malicious activities or policy violations. It analyzes traffic patterns to identify potential security threats and generates alerts when suspicious activities are detected.
 
+- **Does not have access monitors**
 - **Types of IDS**
   - Network-based (NIDS):
     - Monitors network traffic
@@ -412,18 +413,6 @@ Risk assessment is the process of identifying, analyzing, and evaluating potenti
   - Incident response: Procedures for handling security events
   - Disaster recovery: Plans for system restoration
 
-
-## Open Questions and examples
-
-### Provide an example of a security control to reduce the risk of copying accounting data by unauthorised users.
-- Access control lists (ACLs) that restrict copying permissions for accounting data to authorized personnel only
-
-### Are there many (more than 10) information security risk assessment methods?
-- Yes, there are many methods including:
-  - Standard frameworks (OCTAVE, NIST, ISO 27005, FAIR, CRAMM, MEHARI, EBIOS, CORAS, TARA, ISAMM)
-  - Industry-specific methods
-  - Proprietary methodologies
-
 ## 10. Usability in Cybersecurity
 
 ### 10.1 Definition and Principles
@@ -434,7 +423,7 @@ Risk assessment is the process of identifying, analyzing, and evaluating potenti
   - Clear communication: Security messages and alerts must be understandable
 
 ### 10.2 Assuring Usable Cybersecurity
-- User testing and feedback:
+- **User testing and feedback** (most important on exam):
   - Regular usability testing with actual users
   - Collect and implement user feedback
   - Monitor security measure adoption rates
@@ -446,3 +435,27 @@ Risk assessment is the process of identifying, analyzing, and evaluating potenti
   - Regular security awareness training
   - Clear documentation and help resources
   - Ongoing user support for security features
+
+
+## Costs
+### Direct cost
+- Costs of recovery
+
+### Cost categorisation/calculation approaches:
+- balance sheet oriented
+- security measure lifecycle oriented
+- IT security process oriented
+- standard oriented approach
+- ISMS-layer oriented
+
+
+## Open Questions and examples
+
+### Provide an example of a security control to reduce the risk of copying accounting data by unauthorised users.
+- Access control lists (ACLs) that restrict copying permissions for accounting data to authorized personnel only
+
+### Are there many (more than 10) information security risk assessment methods?
+- Yes, there are many methods including:
+  - Standard frameworks (OCTAVE, NIST, ISO 27005, FAIR, CRAMM, MEHARI, EBIOS, CORAS, TARA, ISAMM)
+  - Industry-specific methods
+  - Proprietary methodologies
