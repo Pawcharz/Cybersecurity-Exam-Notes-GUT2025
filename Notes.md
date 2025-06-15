@@ -252,15 +252,15 @@ An Intrusion Detection System (IDS) is a security tool that monitors network or 
 Risk assessment is the process of identifying, analyzing, and evaluating potential risks to an organization's information assets. It helps organizations understand their security posture and make informed decisions about risk mitigation strategies.
 
 - **Phases of Risk Management**
-  - **Risk Identification**:
+  - Risk assesment 1: **Risk Identification**:
     - Asset identification: Catalog all information assets
     - Threat identification: Identify potential threats to assets
     - Vulnerability assessment: Find weaknesses in systems
-  - **Risk Analysis**:
+  - Risk assesment 2:**Risk Analysis**:
     - Impact assessment: Evaluate potential damage
     - Likelihood assessment: Determine probability of occurrence
     - Risk calculation: Combine impact and likelihood
-  - **Risk Evaluation**:
+  - Risk assesment 3: **Risk Evaluation**:
     - Risk prioritization: Rank risks by severity
     - Risk acceptance criteria: Define acceptable risk levels
     - Decision making: Choose appropriate responses
@@ -459,3 +459,8 @@ Risk assessment is the process of identifying, analyzing, and evaluating potenti
   - Standard frameworks (OCTAVE, NIST, ISO 27005, FAIR, CRAMM, MEHARI, EBIOS, CORAS, TARA, ISAMM)
   - Industry-specific methods
   - Proprietary methodologies
+
+## Qualitative risk assesment method
+### Explain the systematic process of developing list of threats during risk assesment.
+- Seeking threat lists from various sources until they start to repeat substantially
+- keeping diferent coherent levels of abstraction
