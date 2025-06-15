@@ -39,37 +39,33 @@ The CIA Triad is the fundamental model of information security:
     - Ransomware attacks: Malware that encrypts data and demands payment for access
     - System failures: Unexpected breakdowns in system operations
 
-### 1.2 Information Security Scope
-Information security extends beyond IT assets to include all forms of information:
-
-- **Physical Assets**
-  - Paper documents
-  - Physical records
-  - Storage media
-
-- **Intellectual Property**
-  - Patents
-  - Trade secrets
-  - Copyrighted materials
-  - Research data
-
-- **Organizational Information**
-  - Employee records
-  - Financial data
-  - Technical reports
-  - Policies and procedures
-  - Guidelines and documentation
-
 ## 2. Access Control
 
 ### 2.1 Access Control Types
 
+- **Access Monitors**
+  - Definition: Security tools that track, log, and analyze access attempts to resources
+  - Purpose:
+    - Auditing: Record of who accessed what and when
+    - Compliance: Meeting regulatory requirements
+    - Security monitoring: Detecting suspicious activities
+  - Implementation:
+    - Operating systems: Track file and system access
+    - Databases: Monitor data access and queries
+    - Network devices: Log network access attempts
+    - Applications: Track user activities
+  - Used across all access control models:
+    - DAC: Monitor discretionary access decisions
+    - MAC: Track mandatory access control enforcement
+    - RBAC: Monitor role-based access patterns
+
 - **DAC (Discretionary Access Control)**
-  - Definition: Access control based on the identity of users and/or groups
+  - Definition: Access control based on the identity of users and/or groups, where resource owners have the authority to determine access permissions
   - Characteristics:
     - Owner-controlled access: Resource owners can modify access permissions
     - Flexible and user-friendly: Easy to implement and manage
     - Uses access control lists (ACLs): Explicit lists defining who can access what
+    - Access control lists are utilized in: File systems, network devices, and operating systems to manage permissions
   - Implementation:
     - File permissions: Granular control over file access rights
     - User groups: Logical grouping of users with similar access needs
@@ -100,7 +96,10 @@ Information security extends beyond IT assets to include all forms of informatio
 ### 2.2 Authentication and Authorization
 
 - **Authentication**
-  - Definition: Process of verifying the identity of a user
+  - Definition: Process of verifying the identity of a user or system through various validation methods
+  - **Identification vs Authentication**:
+    - Identification: Process of claiming an identity (e.g., username)
+    - Authentication: Process of proving the claimed identity (e.g., password)
   - Methods:
     - Something you know (passwords)
     - Something you have (tokens)
@@ -128,6 +127,25 @@ Information security extends beyond IT assets to include all forms of informatio
     - Minimum recommended lengths
     - Impact on performance
 
+- **Keyspace**
+  - Definition: The total number of possible keys in a cryptographic system
+  - Examples:
+    - Symmetric: 128-bit key has **2^128 possible combinations**
+    - Asymmetric: 2048-bit RSA key has 2^2048 possible combinations
+
+- **Communication Channels**
+  - Definition: Methods and pathways for exchanging cryptographic information
+  - Types:
+    - Secure channels: Protected communication paths for sensitive data
+    - Insecure channels: Public or untrusted communication paths
+  - Requirements:
+    - **Symmetric cryptography**: Requires **secure** channel for key exchange
+    - **Asymmetric cryptography**: Public keys can be shared over **insecure** channels
+  - Implementation:
+    - Physical security: Direct, in-person key exchange
+    - Secure protocols: TLS, SSH, or other secure communication methods
+    - Key distribution centers: Centralized key management systems
+
 - **Restricted Cryptographic Algorithm**
   - Definition: Algorithm whose security relies on keeping its design secret, rather than mathematical complexity
   - Characteristics:
@@ -144,7 +162,9 @@ Information security extends beyond IT assets to include all forms of informatio
 ### 3.2 Cryptography Types
 
 - **Symmetric Cryptography**
-  - Definition: Uses the same key for encryption and decryption
+  - Definition: Uses the **same key** for encryption and decryption
+  - Key Exchange:
+    - Secure communication channel required
   - Characteristics:
     - Faster than asymmetric: More efficient for bulk data encryption
     - Requires secure key exchange: Challenge of securely sharing the secret key
@@ -155,7 +175,7 @@ Information security extends beyond IT assets to include all forms of informatio
     - Key rotation: Regular replacement of keys to maintain security
 
 - **Asymmetric Cryptography**
-  - Definition: Uses public/private key pairs
+  - Definition: Uses **public/private key pairs**
   - Characteristics:
     - Slower than symmetric: More computationally intensive
     - No need for secure key exchange: Public keys can be freely shared
@@ -209,6 +229,14 @@ An Intrusion Detection System (IDS) is a security tool that monitors network or 
     - Behavioral analysis
     - Higher false positive rate
     - Detects unknown attacks
+    - Advantages:
+      - Can detect zero-day attacks
+      - Adapts to changing patterns
+      - No need for signature updates
+    - Disadvantages:
+      - Higher false positive rate
+      - Requires extensive training
+      - May miss known attacks
 
 - **Components**
   - Knowledge base
@@ -221,6 +249,24 @@ An Intrusion Detection System (IDS) is a security tool that monitors network or 
 
 ### 5.1 Risk Assessment
 Risk assessment is the process of identifying, analyzing, and evaluating potential risks to an organization's information assets. It helps organizations understand their security posture and make informed decisions about risk mitigation strategies.
+
+- **Phases of Risk Management**
+  - **Risk Identification**:
+    - Asset identification: Catalog all information assets
+    - Threat identification: Identify potential threats to assets
+    - Vulnerability assessment: Find weaknesses in systems
+  - **Risk Analysis**:
+    - Impact assessment: Evaluate potential damage
+    - Likelihood assessment: Determine probability of occurrence
+    - Risk calculation: Combine impact and likelihood
+  - **Risk Evaluation**:
+    - Risk prioritization: Rank risks by severity
+    - Risk acceptance criteria: Define acceptable risk levels
+    - Decision making: Choose appropriate responses
+  - **Risk Treatment**:
+    - Control selection: Choose appropriate security measures
+    - Implementation: Deploy selected controls
+    - Monitoring: Track effectiveness of controls
 
 - **Impact Levels (FIPS 199)**
   - Low: Limited adverse effect on organizational operations, assets, or individuals
@@ -239,16 +285,32 @@ Risk assessment is the process of identifying, analyzing, and evaluating potenti
     - Risk avoidance: Eliminating activities that pose unacceptable risks
 
 ### 5.2 Security Controls
-Security controls are safeguards or countermeasures designed to protect information systems and data from security threats. They can be technical, administrative, or physical in nature.
+
+- **Definition and Types**
+  - Security controls are safeguards or countermeasures designed to protect information systems and data from security threats
+  - Can be technical, administrative, or physical in nature
+  - Types:
+    - Preventive controls: Stop security incidents before they occur
+    - Detective controls: Identify security incidents when they occur
+    - Corrective controls: Mitigate the impact of security incidents
 
 - **Organizational Controls**
-  - Information security organization: Structured approach to managing security
-  - Asset management: Systematic tracking and protection of organizational assets
-  - Compliance: Adherence to relevant laws, regulations, and standards
-  - Change management: Controlled process for implementing system changes
-  - Working in secure areas: Physical security measures for sensitive operations
-  - Asset handling: Procedures for managing sensitive information
-  - Information security roles: Defined responsibilities for security personnel
+  - Information security organization: Dedicated security team with clear responsibilities
+  - Asset management: Inventory and classification of all information assets
+  - Compliance: Regular audits and documentation of compliance measures
+  - Change management: Formal process for system changes with impact assessment
+  - Working in secure areas: Access control and monitoring of sensitive areas
+  - Asset handling: Secure storage and disposal procedures for sensitive data
+  - Information security roles: Defined security officer and incident response duties
+
+- **ICT Infrastructure and Protection**
+  - Definition: **Information and Communication Technology (ICT)** infrastructure includes all hardware, software, networks, and data centers
+  - Protection measures:
+    - Physical security: Protection of physical assets
+    - Network security: Protection of network infrastructure
+    - Access control: Management of system access
+    - Data protection: Safeguarding sensitive information
+    - Backup systems: Ensuring data availability
 
 ## 6. Standards and Frameworks
 
@@ -281,12 +343,12 @@ Security controls are safeguards or countermeasures designed to protect informat
 ### 7.1 Definition and Scope
 
 - **Critical Functions**
-  - Vital societal functions: Essential services that maintain societal operations
-  - Health services: Medical care and public health systems
-  - Safety systems: Emergency response and public safety infrastructure
-  - Security systems: National and local security operations
-  - Economic systems: Financial and economic infrastructure
-  - Social services: Essential public services and support systems
+  - Vital societal functions: Power grid operations and maintenance
+  - Health services: Hospital emergency departments and medical facilities
+  - Safety systems: 911 emergency response systems
+  - Security systems: Border control and immigration systems
+  - Economic systems: Banking and financial transaction systems
+  - Social services: Social security and welfare distribution systems
 
 ### 7.2 Impact of Disruption
 
@@ -313,6 +375,9 @@ Security controls are safeguards or countermeasures designed to protect informat
     - Overwhelms systems: Floods resources with excessive traffic
     - Blocks legitimate access: Prevents authorized users from using services
     - Multiple attack sources: Coordinated attacks from various locations
+  - Case Study: Zeus Attack (2010-2011)
+    - Impact: Data erasure on infected hard disks
+    - Violated attribute: Availability
 
 ### 8.2 Integrity Violations
 
@@ -346,3 +411,38 @@ Security controls are safeguards or countermeasures designed to protect informat
   - Monitoring: Continuous surveillance of systems
   - Incident response: Procedures for handling security events
   - Disaster recovery: Plans for system restoration
+
+
+## Open Questions and examples
+
+### Provide an example of a security control to reduce the risk of copying accounting data by unauthorised users.
+- Access control lists (ACLs) that restrict copying permissions for accounting data to authorized personnel only
+
+### Are there many (more than 10) information security risk assessment methods?
+- Yes, there are many methods including:
+  - Standard frameworks (OCTAVE, NIST, ISO 27005, FAIR, CRAMM, MEHARI, EBIOS, CORAS, TARA, ISAMM)
+  - Industry-specific methods
+  - Proprietary methodologies
+
+## 10. Usability in Cybersecurity
+
+### 10.1 Definition and Principles
+- Definition: The degree to which security measures can be effectively and efficiently used by users
+- Key principles:
+  - User-centered design: Security measures must align with user needs and behaviors
+  - Security by default: Implement secure settings that require minimal user configuration
+  - Clear communication: Security messages and alerts must be understandable
+
+### 10.2 Assuring Usable Cybersecurity
+- User testing and feedback:
+  - Regular usability testing with actual users
+  - Collect and implement user feedback
+  - Monitor security measure adoption rates
+- Security design guidelines:
+  - Minimize user effort required for security tasks
+  - Provide clear security status indicators
+  - Use consistent security patterns across systems
+- Training and support:
+  - Regular security awareness training
+  - Clear documentation and help resources
+  - Ongoing user support for security features
