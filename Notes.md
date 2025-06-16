@@ -95,9 +95,11 @@ The CIA Triad is the fundamental model of information security:
 
 ### 2.2 Authentication and Authorization
 
+- **Identification**
+  - Definition: Process of claiming an identity (e.g., username)
 - **Authentication**
   - Definition: Process of verifying the identity of a user or system through various validation methods
-  - **Identification vs Authentication**:
+  - ** Identification vs Authentication**:
     - Identification: Process of claiming an identity (e.g., username)
     - Authentication: Process of proving the claimed identity (e.g., password)
   - Methods:
